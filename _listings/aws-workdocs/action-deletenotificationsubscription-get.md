@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteNotificationSubscription&k=1:
+  /?Action=DeleteNotificationSubscription:
     get:
       summary: ' Delete Notification Subscription '
       description: Deletes the specified subscription from the specified organization
