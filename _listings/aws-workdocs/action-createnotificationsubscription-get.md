@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateNotificationSubscription&k=1:
+  /?Action=CreateNotificationSubscription:
     get:
       summary: ' Create Notification Subscription '
       description: Configure WorkDocs to use Amazon SNS notifications
